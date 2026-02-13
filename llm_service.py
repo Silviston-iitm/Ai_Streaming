@@ -12,7 +12,8 @@ def stream_llm_response(prompt: str):
 
     try:
         stream = client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="gpt-4o-mini",
+
             messages=[
                 {
                     "role": "system",
